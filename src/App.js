@@ -22,6 +22,7 @@ function App() {
       setInputValue('');
       setDueDateValue('');
     }
+    const unusedVariable = 'This is an unused variable';
   };
 
   const [dueDateValue, setDueDateValue] = useState('');
